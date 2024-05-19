@@ -1,0 +1,87 @@
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://assets.nflxext.com/ffe/siteui/vlv3/f1c3c4eb-2fea-42c7-9ebd-1c093bd8a69d/a87e547c-fabd-4bd3-9bce-7959225d33ee/EG-en-20230403-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+}
+
+    
+    .div1{
+        font-size: 50px;
+        padding: 20px;
+        color: red; 
+        text-transform: uppercase;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        width:100%;
+        margin: 0 32px;
+    }
+    span{
+        padding-left: 5%;
+        margin-right: 50%;
+    }
+    button{
+        text-transform: capitalize;
+        background-color: #e50914;
+        color: #ffffff;
+        padding: 4px 16px;
+        border-radius: 5px;
+        border-color:  #e50914;
+        font-family: Arial, Helvetica, sans-serif;
+        
+       
+        vertical-align: middle;
+        margin-right: 10px;
+    }
+
+    h1{
+        color: #ffffff;
+        text-align: center;
+        margin: 10% 0 0 ;
+        font-size: 50px;
+        
+        
+    }
+    .p1{
+        margin: 10px 0 0;
+        color: #ffffff;
+        text-align: center;
+        font-size: 35px;
+    }
+    h3{
+        color: #ffffff;
+        text-align: center;
+        font-size: 33;
+        margin: 0px;
+    }
+    .div3{
+        padding: 0px 32px;
+        width: 100%;
+       
+        
+    }
+    input{
+        padding: 20px 16px 8px;
+       margin-left: 25%;
+       background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/f1c3c4eb-2fea-42c7-9ebd-1c093bd8a69d/a87e547c-fabd-4bd3-9bce-7959225d33ee/EG-en-20230403-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+        
+        background: transparent;
+     
+        width: 350px;
+        height: 30px;
+        color: #ffffff;
+        border-radius: 5px;
+    }
+    .b2{
+        height: 50px;
+        width: 150px;
+        background-color: #e50914;
+        color: #ffffff; vertical-align: middle;
+        border-radius: 5px;
+        padding: 2px 0px 4px;
+        margin: 2px 0px 4px;
+    }
+    ::placeholder{
+       font-weight: bold;
+       font-size: 15px;
+    }
+    #sign{
+        color: #ffffff;
+        text-decoration: none;
+    }
