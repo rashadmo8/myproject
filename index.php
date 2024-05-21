@@ -1,25 +1,3 @@
-<?php
-require_once 'conn.php';
-
-if(isset($_POST['sub'])){
-    $email = $_POST['email'];
-    $pass = $_POST['pass'];
-
-    $query="SELECT email,password FROM users ";
-    $q1=$conn->prepare($query);
-    $q1->execute();
-    $res=$q1->fetchAll(PDO::FETCH_ASSOC);
-    if($res){
-
-        foreach($res as $re){
-            if($email==$re['email']&& $pass==$re['password']){
-                header('Location: file:///C:/xampp/htdocs/net/test.html');
-            }
-        }
-
-    }
-    }
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -111,4 +89,23 @@ if(isset($_POST['sub'])){
 </body>
 </html>
 
+<?php
+require_once 'conn.php';
 
+if(isset($_POST['sub'])){
+    $email = $_POST['email'];
+    $pass = $_POST['pass'];
+
+    $query="SELECT email,password FROM users ";
+    $q1=$conn->prepare($query);
+    $q1->execute();
+    $res=$q1->fetchAll(PDO::FETCH_ASSOC);
+    if($res){
+        foreach($res as $re){
+            if($email==$re['email']&& $pass==$re['password']){
+                header('Location: file:///C:/xampp/htdocs/net/test.php');
+            }
+        }
+    }
+    }
+?>
