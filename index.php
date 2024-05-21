@@ -13,22 +13,12 @@ if(isset($_POST['sub'])){
 
         foreach($res as $re){
             if($email==$re['email']&& $pass==$re['password']){
-                header('Location: http://localhost/net/conn.php');
+                header('Location: file:///C:/xampp/htdocs/net/test.html');
             }
         }
 
     }
-
-
-
-
     }
-
-
-
-
-
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
