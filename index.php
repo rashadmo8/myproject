@@ -103,7 +103,7 @@ if(isset($_POST['sub'])){
     if($res){
         foreach($res as $re){
             if($email==$re['email']&& $pass==$re['password']){
-                header('Location: ');
+                // header('Location: ');
             }
         }
     }
