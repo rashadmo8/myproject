@@ -23,7 +23,7 @@ btn.onclick=function() {
     }
 
     // If both validations pass
-    alert('Form submitted successfully!');
+    alert('sign_in successfully!');
     // return true;
 }
 
